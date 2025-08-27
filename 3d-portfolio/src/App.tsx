@@ -3,6 +3,7 @@ import { useState } from 'react';
 import { CodeEditor } from './components/animate-ui/components/code-editor';
 
 import { FaReact } from 'react-icons/fa';
+import { AvatarGroupDemo } from  './assets/constants/avatar-group-demo';//src/assets/constants/avatar-group-demo.tsx
 const App = () => {
   const [isPopupCodeVisible, setIsPopupCodeVisible] = useState(false);
 
@@ -18,7 +19,7 @@ const App = () => {
 
   return (
     <>
-      <div className="flex justify-center gap-3 items-center relative">
+      <div className="flex justify-center gap-3 mt-5 items-center relative">
         <button 
           onClick={saidhi} 
           className='mt-2 flex justify-center items-center bg-blue-200 text-black rounded-full px-4 py-2 text-sm hover:bg-blue-300 transition-colors'
@@ -30,6 +31,9 @@ const App = () => {
         <h1 className='text-white text-xl font-semibold mt-3'>
           {4} People Have said hi
         </h1>
+       
+     <AvatarGroupDemo/>
+
         
         <h1 
           onClick={handlePopupToggle} 
@@ -56,7 +60,7 @@ const App = () => {
              lang='tsx'
              >
               {`
-              lala land nikka 
+              lala land aslfjlsafjsdlfjsldkfaslfsdlkaf
               `}
              </CodeEditor>
              
