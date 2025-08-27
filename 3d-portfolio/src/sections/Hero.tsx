@@ -18,6 +18,7 @@ const Hero = () => {
    
    <div className="hero-text">
      <h1>Shaping
+
        <span className="slide">  {/* animation in index.css file , also wrapper */}
       <span className="wrapper">
       {words.map((word)=>(
@@ -40,6 +41,12 @@ const Hero = () => {
      <h1>That Deliver Results</h1>
 
    </div>
+
+ <p className='text-white-50  md:text-xl relative z-10 pointer-events-none'>
+ Hi, I'm Ashton. I'm a software engineer with a passion for creating minimal and  pretty user interfaces , scalable backend systems , blockchain technology , overall I can work on anything , I believe no tech stack defines me , I create projects that are unique and I am always looking for new challenges.
+ My Main and Current interest is in Blockhain technology in ethereum and Solana , Blockhain security , Backend systems .
+ </p>
+
 
   </div>
   
