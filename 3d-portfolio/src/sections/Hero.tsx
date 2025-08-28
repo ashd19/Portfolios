@@ -6,7 +6,7 @@ import HeroModel from "../components/3d-models/heroModel";
 const Hero = () => {
   return (
     <>
-      <section id="hero" className="relative overflow-hidden">
+      <section id="hero" className="relative overflow-hidden ">
         <div className="absolute top-0 left-0 z-10">
           <img src={bg} alt="hero-bg" />
         </div>
@@ -61,7 +61,6 @@ const Hero = () => {
           {/* right hero content  : here the 3d-model will come */}
           <figure className="w-300 h-300">
             {" "}
-            {/* Add negative margin top */}
             <div className="hero-3d-layout ">
               <HeroModel />
             </div>

@@ -1,4 +1,4 @@
-import React from 'react'
+import React from "react";
 
 type CustomButtonProps = {
   className: string;
@@ -6,24 +6,31 @@ type CustomButtonProps = {
   id: string;
 };
 
-const CustomButton = ({className,text,id} :CustomButtonProps ) => {
-  return (  
+const CustomButton = ({ className, text, id }: CustomButtonProps) => {
+  return (
+    <a
+      className={` ${className ?? ""} cta-wrapper`}
+      // onClick={(e) => {
+      //   e.preventDefault();
+      //   const target = document.getElementById("seeMyWorkButton");
+      // //   if (target && id) {
+      // //     const offset = window.innerHeight * 0.15;
+      // //     const top =
+      // //       target.getBoundingClientRect().top + window.scrollY - offset;
 
-     <div>
-       <a href={` ${className ?? ''} cta-wrapper`}>
-         <div className='cta-button group'>
-         <div className='bg-circle'/>
-           <p className='text'>{text}</p>
-           <div className='arrow-wrapper'>
-           <img src="../assets/public/images/arrow.svg" alt="arrow" />
-            
-           </div>
-
+      // //     window.scrollTo({ top, behavior: "smooth" });
+      // //   }
+      // // }}
+    >
+      <div className="cta-button group">
+        <div className="bg-circle" />
+        <p className="text">{text}</p>
+        <div className="arrow-wrapper">
+          <img src="../assets/public/images/arrow.svg" alt="arrow" />
         </div>
-       </a>
-     </div>
-)
-}
+      </div>
+    </a>
+  );
+};
 
-
-export default CustomButton
+export default CustomButton;
