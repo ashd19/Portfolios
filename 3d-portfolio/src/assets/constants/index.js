@@ -1,6 +1,6 @@
 const navLinks = [
   {
-    name: "Work",
+    name: "Projects",
     link: "#work",
   },
   {
@@ -18,22 +18,23 @@ const navLinks = [
 ];
 
 const words = [
-  { text: "Ideas", imgPath: "/images/ideas.svg" },
-  { text: "Concepts", imgPath: "/images/concepts.svg" },
-  { text: "Designs", imgPath: "/images/designs.svg" },
-  { text: "Code", imgPath: "/images/code.svg" },
-  { text: "Ideas", imgPath: "/images/ideas.svg" },
-  { text: "Concepts", imgPath: "/images/concepts.svg" },
-  { text: "Designs", imgPath: "/images/designs.svg" },
-  { text: "Code", imgPath: "/images/code.svg" },
+  { text: "Ideas", imgPath: "src/assets/public/images/ideas.svg" },
+  { text: "Concepts", imgPath: "src/assets/public/images/concepts.svg" },
+  { text: "Designs", imgPath: "src/assets/public/images/designs.svg" },
+  { text: "Code", imgPath: "src/assets/public/images/code.svg" },
+  { text: "Ideas", imgPath: "src/assets/public/images/ideas.svg" },
+  { text: "Concepts", imgPath: "src/assets/public/images/concepts.svg" },
+  { text: "Designs", imgPath: "src/assets/public/images/designs.svg" },
+  { text: "Code", imgPath: "src/assets/public/images/code.svg" },
+ 
 ];
 
-const counterItems = [
-  { value: 15, suffix: "+", label: "Years of Experience" },
-  { value: 200, suffix: "+", label: "Satisfied Clients" },
-  { value: 108, suffix: "+", label: "Completed Projects" },
-  { value: 90, suffix: "%", label: "Client Retention Rate" },
-];
+// const counterItems = [
+//   { value: 15, suffix: "+", label: "Years of Experience" },
+//   { value: 200, suffix: "+", label: "Satisfied Clients" },
+//   { value: 108, suffix: "+", label: "Completed Projects" },
+//   { value: 90, suffix: "%", label: "Client Retention Rate" },
+// ];
 
 const logoIconsList = [
   {
@@ -70,28 +71,33 @@ const logoIconsList = [
     imgPath: "/images/logos/company-logo-11.png",
   },
 ];
-
 const abilities = [
+  {
+    imgPath: "/images/ownership.png",
+    title: "Ownership and Responsibility",
+    desc: "I take full ownership of every project I work on, ensuring alignment with the team and managing both quality and progress. From optimizing UI and SEO to tracking results, I focus on delivering tangible outcomes rather than just promises.",
+  },
   {
     imgPath: "/images/seo.png",
     title: "Quality Focus",
-    desc: "Delivering high-quality results while maintaining attention to every detail.",
+    desc: "I maintain a sharp attention to detail and ensure that every project meets high standards, optimizing both functionality and user experience for maximum impact.",
   },
   {
     imgPath: "/images/chat.png",
     title: "Reliable Communication",
-    desc: "Keeping you updated at every step to ensure transparency and clarity.",
+    desc: "I am a strong communicator fluent in English, Hindi, and Marathi, capable of breaking down complex technical concepts into clear, easy-to-understand language. I ensure everyone involved understands the project, fosters collaboration, and keeps stakeholders informed with clarity and precision.",
   },
   {
     imgPath: "/images/time.png",
     title: "On-Time Delivery",
-    desc: "Making sure projects are completed on schedule, with quality & attention to detail.",
+    desc: "I prioritize efficiency without compromising quality, making sure projects are completed on schedule while maintaining attention to detail and delivering measurable results.",
   },
 ];
 
+//  add those small icons in techstack ... .animations ... 
 const techStackImgs = [
   {
-    name: "React Developer",
+    name: "React / Next.js Developer",
     imgPath: "/images/logos/react.png",
   },
   {
@@ -145,43 +151,24 @@ const techStackIcons = [
   },
 ];
 
+
 const expCards = [
-  {
-    review: "Adrian brought creativity and technical expertise to the team, significantly improving our frontend performance. His work has been invaluable in delivering faster experiences.",
-    imgPath: "/images/exp1.png",
-    logoPath: "/images/logo1.png",
-    title: "Frontend Developer",
-    date: "January 2023 - Present",
-    responsibilities: [
-      "Developed and maintained user-facing features for the Hostinger website.",
-      "Collaborated closely with UI/UX designers to ensure seamless user experiences.",
-      "Optimized web applications for maximum speed and scalability.",
-    ],
-  },
-  {
-    review: "Adrian’s contributions to Docker's web applications have been outstanding. He approaches challenges with a problem-solving mindset.",
-    imgPath: "/images/exp2.png",
-    logoPath: "/images/logo2.png",
-    title: "Full Stack Developer",
-    date: "June 2020 - December 2023",
-    responsibilities: [
-      "Led the development of Docker's web applications, focusing on scalability.",
-      "Worked with backend engineers to integrate APIs seamlessly with the frontend.",
-      "Contributed to open-source projects that were used with the Docker ecosystem.",
-    ],
-  },
-  {
-    review: "Adrian’s work on Appwrite’s mobile app brought a high level of quality and efficiency. He delivered solutions that enhanced our mobile experience & meet our product goals.",
-    imgPath: "/images/exp3.png",
-    logoPath: "/images/logo3.png",
-    title: "React Native Developer",
-    date: "March 2019 - May 2020",
-    responsibilities: [
-      "Built cross-platform mobile apps using React Native, integrating with Appwrite's backend services.",
-      "Improved app performance and user experience through code optimization and testing.",
-      "Coordinated with the product team to implement features based on feedback.",
-    ],
-  },
+{
+  review: "Ashton brought creativity, technical expertise, and strong communication skills to the team. He was not only a reliable developer but also a friendly and helpful teammate who contributed across multiple projects. His ability to take full ownership, from planning to deployment, made him invaluable in delivering high-quality results on time.",
+  imgPath: "/images/exp1.png",
+  logoPath: "/images/logo1.png",
+  title: "Software Developer Intern",
+  date: "July 2025 - September 2025",
+  responsibilities: [
+    "Designed, developed, and maintained multiple full-stack projects covering both front-end and back-end development.",
+    "Deployed applications on platforms like Hostinger and Vercel, ensuring stability and accessibility for end users.",
+    "Gained hands-on experience with tools such as Google Cloud, Firebase, and Supabase to build scalable and efficient solutions.",
+    "Worked across a wide variety of tech stacks and project types, adapting quickly to different requirements and challenges.",
+    "Collaborated effectively with teammates, providing support, clear communication, and problem-solving to keep projects on track.",
+  ],
+}
+
+  
 ];
 
 const expLogos = [
@@ -201,57 +188,53 @@ const expLogos = [
 
 const testimonials = [
   {
-    name: "Esther Howard",
-    mentions: "@estherhoward",
+    name: "Naitik Mehta",
+    mentions: "@naitikmehta",
     review:
-      "I can’t say enough good things about Adrian. He was able to take our complex project requirements and turn them into a seamless, functional website. His problem-solving abilities are outstanding.",
+      "I can’t say enough good things about Ashton. .He is a very hardworking  and contributed a lot during our mini project where we worked on projects like Saathi(Find like minded people ) , SkillNest(Test conducter Saas platform) ,winit (get rewards for completing tasks... , environment friendly app ...) ,",
     imgPath: "/images/client1.png",
   },
   {
-    name: "Wade Warren",
-    mentions: "@wadewarren",
+    name: "Pratik Biyani",
+    mentions: "@pratikbiyani",
     review:
-      "Working with Adrian was a fantastic experience. He transformed our outdated website into a modern, user-friendly platform. His attention to detail and commitment to quality are unmatched. Highly recommend him for any web dev projects.",
+      "Working with Ashton was a fantastic experience. In our hackathon project (Museum chatbot based  ticketing  System ) he worked on the developing the mobile application for  the project. He was very helpful and helped us to develop the application. His attention to detail and commitment to quality are unmatched. Highly recommend him for any Type of  projects.",  
     imgPath: "/images/client3.png",
   },
   {
-    name: "Guy Hawkins",
-    mentions: "@guyhawkins",
+    name: "Abhinandan Basotra",
+    mentions: "@abhinandanbasotra", 
     review:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
+      "Collaborating with Ashton was an absolute pleasure.We worked together on our hackathon project(Museum chatbot based ticketing System)  on developing the mobile application .His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
     imgPath: "/images/client2.png",
   },
   {
-    name: "Marvin McKinney",
-    mentions: "@marvinmckinney",
+    name: "Dhruv",
+    mentions: "@Dhruv",
     review:
-      "Adrian was a pleasure to work with. He turned our outdated website into a fresh, intuitive platform that’s both modern and easy to navigate. Fantastic work overall.",
+      "Ashton was a pleasure to work with. We were teammates in a frontend ui based hackathon.His contributions in making the website minimal, fast , adding 3d models , impressive animation really helped us. Not only skills but he is fun to work with  hears everyones idea and then collective makes the important desicion , he managed the project and took good ownership . Fantastic work overall.",
     imgPath: "/images/client5.png",
   },
   {
-    name: "Floyd Miles",
-    mentions: "@floydmiles",
-    review:
-      "Adrian’s expertise in web development is truly impressive. He delivered a robust and scalable solution for our e-commerce site, and our online sales have significantly increased since the launch. He’s a true professional!",
+    name: "Aaryan Lunis",
+    mentions: "@aaryanlunis",
+    review:"Ashton was a pleasure to work with. Together we worked on a data analytics project where we worked on Indian Premier League (IPL) data analysis , were he worked on visualizations and data analysis. He was very helpful and helped us to develop the application. His attention to detail and commitment to quality are unmatched. Highly recommend him for any Type of  projects.",
     imgPath: "/images/client4.png",
   },
   {
-    name: "Albert Flores",
-    mentions: "@albertflores",
+    name: "Purab ",
+    mentions: "@purab",
     review:
-      "Adrian was a pleasure to work with. He understood our requirements perfectly and delivered a website that exceeded our expectations. His skills in both frontend and backend dev are top-notch.",
+      "Ashton was a pleasure to work with. He understood our requirements perfectly and delivered a website that exceeded our expectations. His skills in both frontend and backend dev are top-notch.",
     imgPath: "/images/client6.png",
   },
 ];
 
 const socialImgs = [
+  
   {
-    name: "insta",
-    imgPath: "/images/insta.png",
-  },
-  {
-    name: "fb",
-    imgPath: "/images/fb.png",
+    name: "github",
+    imgPath: "/images/github.png",
   },
   {
     name: "x",
@@ -267,7 +250,6 @@ export {
   words,
   abilities,
   logoIconsList,
-  counterItems,
   expCards,
   expLogos,
   testimonials,

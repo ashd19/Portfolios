@@ -16,23 +16,23 @@ const AVATARS = [
   },
   {
     src: 'https://pbs.twimg.com/profile_images/1593304942210478080/TUYae5z7_400x400.jpg',
-    fallback: 'CN',
-    tooltip: 'Shadcn',
+    fallback: 'Pratik',
+    tooltip: 'Pratik',
   },
   {
     src: 'https://pbs.twimg.com/profile_images/1677042510839857154/Kq4tpySA_400x400.jpg',
-    fallback: 'AW',
-    tooltip: 'Adam Wathan',
+    fallback: 'Abhinandan',
+    tooltip: 'Abhinandan',
   },
   {
     src: 'https://pbs.twimg.com/profile_images/1783856060249595904/8TfcCN0r_400x400.jpg',
-    fallback: 'GR',
-    tooltip: 'Guillermo Rauch',
+    fallback: 'Dhruv',
+    tooltip: 'Dhruv',
   },
   {
     src: 'https://pbs.twimg.com/profile_images/1534700564810018816/anAuSfkp_400x400.jpg',
-    fallback: 'JH',
-    tooltip: 'Jhey',
+    fallback: 'Aaryan',
+    tooltip: 'Aaryan',
   },
 ];
  
