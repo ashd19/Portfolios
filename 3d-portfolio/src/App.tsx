@@ -4,6 +4,7 @@ import Projects from "./sections/Projects";
 import NavBar from "./sections/NavBar";
 import IntroBar from "./sections/IntroBar";
 import Testimonials from "./sections/Testimonials";
+import Resume from "./sections/Resume";
 const App = () => {
   return (
     <>
@@ -15,6 +16,7 @@ const App = () => {
       {/* project section */}
       <Projects />
       <Testimonials />
+      <Resume/>
     </>
   );
 };
