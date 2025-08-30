@@ -2,7 +2,7 @@ import { words } from "../constants";
 import bg from "../assets/public/images/bg.png";
 import CustomButton from "../components/CustomButton";
 import HeroModel from "../components/3d-models/heroModel";
-import IntroBar from "./IntroBar";
+// import IntroBar from "./IntroBar";
 
 const Hero = () => {
   return (
@@ -11,7 +11,7 @@ const Hero = () => {
         <div className="absolute top-0 left-0 z-10">
           <img src={bg} alt="hero-bg" />
         </div>
-        <IntroBar />
+        {/* <IntroBar /> */}
         <div className="hero-layoout grid grid-cols-1 md:grid-cols-2 gap-8 items-center min-h-screen">
           {/* left hero content : here the text will come */}
           <header className="flex flex-col justify-center md:w-full w-screen md:px-20 px-5 relative z-20">

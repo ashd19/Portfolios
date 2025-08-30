@@ -31,7 +31,6 @@ const words = [
   { text: "Concepts", imgPath: "src/assets/public/images/concepts.svg" },
   { text: "Designs", imgPath: "src/assets/public/images/designs.svg" },
   { text: "Code", imgPath: "src/assets/public/images/code.svg" },
- 
 ];
 
 // const counterItems = [
@@ -99,7 +98,7 @@ const abilities = [
   },
 ];
 
-//  add those small icons in techstack ... .animations ... 
+//  add those small icons in techstack ... .animations ...
 const techStackImgs = [
   {
     name: "React / Next.js Developer",
@@ -156,24 +155,22 @@ const techStackIcons = [
   },
 ];
 
-
 const expCards = [
-{
-  review: "Ashton brought creativity, technical expertise, and strong communication skills to the team. He was not only a reliable developer but also a friendly and helpful teammate who contributed across multiple projects. His ability to take full ownership, from planning to deployment, made him invaluable in delivering high-quality results on time.",
-  imgPath: "/images/exp1.png",
-  logoPath: "/images/logo1.png",
-  title: "Software Developer Intern",
-  date: "July 2025 - September 2025",
-  responsibilities: [
-    "Designed, developed, and maintained multiple full-stack projects covering both front-end and back-end development.",
-    "Deployed applications on platforms like Hostinger and Vercel, ensuring stability and accessibility for end users.",
-    "Gained hands-on experience with tools such as Google Cloud, Firebase, and Supabase to build scalable and efficient solutions.",
-    "Worked across a wide variety of tech stacks and project types, adapting quickly to different requirements and challenges.",
-    "Collaborated effectively with teammates, providing support, clear communication, and problem-solving to keep projects on track.",
-  ],
-}
-
-  
+  {
+    review:
+      "Ashton brought creativity, technical expertise, and strong communication skills to the team. He was not only a reliable developer but also a friendly and helpful teammate who contributed across multiple projects. His ability to take full ownership, from planning to deployment, made him invaluable in delivering high-quality results on time.",
+    imgPath: "/images/exp1.png",
+    logoPath: "/images/logo1.png",
+    title: "Software Developer Intern",
+    date: "July 2025 - September 2025",
+    responsibilities: [
+      "Designed, developed, and maintained multiple full-stack projects covering both front-end and back-end development.",
+      "Deployed applications on platforms like Hostinger and Vercel, ensuring stability and accessibility for end users.",
+      "Gained hands-on experience with tools such as Google Cloud, Firebase, and Supabase to build scalable and efficient solutions.",
+      "Worked across a wide variety of tech stacks and project types, adapting quickly to different requirements and challenges.",
+      "Collaborated effectively with teammates, providing support, clear communication, and problem-solving to keep projects on track.",
+    ],
+  },
 ];
 
 const expLogos = [
@@ -196,41 +193,41 @@ const testimonials = [
     name: "Naitik Mehta",
     mentions: "@naitikmehta",
     review:
-      "I can’t say enough good things about Ashton. .He is a very hardworking  and contributed a lot during our mini project",
-    
-    imgPath: "/images/client3.png",
+      "I can’t say enough good things about Ashton.He is a very hardworking  and hade a huge impact  during multiple projects and hackathons .",
+
+    imgpath: "/images/naitik.jpg",
   },
   {
     name: "Abhinandan Basotra",
-    mentions: "@abhinandanbasotra", 
+    mentions: "@abhinandanbasotra",
     review:
-      "Collaborating with Ashton was an absolute pleasure.We worked together on our hackathon project(Museum chatbot based ticketing System)  on developing the mobile application .His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enathusiasm for every facet of development truly stands out.",
+      "Collaborating with Ashton was an absolute pleasure , He takes care of minute details and he is always available to help out .We worked together on developing A mobile application .His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project.",
     imgPath: "/images/client2.png",
   },
   {
     name: "Dhruv",
     mentions: "@Dhruv",
     review:
-      "Ashton was a pleasure to work with. We were teammates in a frontend ui based hackathon.His contributions in making the website minimal, fast , adding 3d models , impressive animation really helped us. Not only skills but he is fun to work with  hears everyones idea and then collective makes the important desicion , he managed the project and took good ownership . Fantastic work overall.",
+      "Ashton was a pleasure to work with. We were teammates in a frontend ui based hackathon.His contributions in making the website minimal, fast , adding 3d models , impressive animation really helped us. Not only skills but he is fun to work with , he managed the project and took good ownership . Fantastic work overall.",
     imgPath: "/images/client5.png",
   },
   {
     name: "Aaryan Lunis",
     mentions: "@aaryanlunis",
-    review:"Ashton was a pleasure to work with. Together we worked on a data analytics project where we worked on Indian Premier League (IPL) data analysis , were he worked on visualizations and data analysis. He was very helpful and helped us to develop the application. His attention to detail and commitment to quality are unmatched. Highly recommend him for any Type of  projects.",
+    review:
+      "Ashton was a pleasure to work with. Together we worked on a data analytics project  where he worked on visualizations and data analysis. He was very helpful and helped us to develop the application. His attention to detail and commitment to quality are unmatched. Highly recommend him for any Type of  projects.",
     imgPath: "/images/client4.png",
   },
   {
     name: "Purab ",
     mentions: "@purab",
     review:
-      "Ashton was a pleasure to work with. He understood our requirements perfectly and delivered a website that exceeded our expectations. His skills in both frontend and backend dev are top-notch.",
+      "Ashton was a pleasure to work with. He understood the requirements perfectly and delivered a website that exceeded my expectations. His skills in both frontend and backend dev are top-notch.",
     imgPath: "/images/client6.png",
   },
 ];
 
 const socialImgs = [
-  
   {
     name: "github",
     imgPath: "/images/github.png",
