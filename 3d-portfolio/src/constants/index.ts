@@ -196,21 +196,15 @@ const testimonials = [
     name: "Naitik Mehta",
     mentions: "@naitikmehta",
     review:
-      "I can’t say enough good things about Ashton. .He is a very hardworking  and contributed a lot during our mini project where we worked on projects like Saathi(Find like minded people ) , SkillNest(Test conducter Saas platform) ,winit (get rewards for completing tasks... , environment friendly app ...) ,",
-    imgPath: "/images/client1.png",
-  },
-  {
-    name: "Pratik Biyani",
-    mentions: "@pratikbiyani",
-    review:
-      "Working with Ashton was a fantastic experience. In our hackathon project (Museum chatbot based  ticketing  System ) he worked on the developing the mobile application for  the project. He was very helpful and helped us to develop the application. His attention to detail and commitment to quality are unmatched. Highly recommend him for any Type of  projects.",  
+      "I can’t say enough good things about Ashton. .He is a very hardworking  and contributed a lot during our mini project",
+    
     imgPath: "/images/client3.png",
   },
   {
     name: "Abhinandan Basotra",
     mentions: "@abhinandanbasotra", 
     review:
-      "Collaborating with Ashton was an absolute pleasure.We worked together on our hackathon project(Museum chatbot based ticketing System)  on developing the mobile application .His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
+      "Collaborating with Ashton was an absolute pleasure.We worked together on our hackathon project(Museum chatbot based ticketing System)  on developing the mobile application .His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enathusiasm for every facet of development truly stands out.",
     imgPath: "/images/client2.png",
   },
   {
