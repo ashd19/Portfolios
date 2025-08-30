@@ -21,7 +21,10 @@ const Resume = () => {
   // }
 
   return (
-    <div id="resume" className="flex justify-center gap-5 items-center mt-20">
+    <div
+      id="resume"
+      className="bg-transparenth-50 flex justify-center gap-5 items-center mt-3"
+    >
       <button
         type="button"
         // onClick={handleViewClick}
