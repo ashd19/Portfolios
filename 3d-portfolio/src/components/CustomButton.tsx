@@ -9,6 +9,7 @@ type CustomButtonProps = {
 const CustomButton = ({ className, text, id }: CustomButtonProps) => {
   return (
     <a
+     href="#projects"
       className={` ${className ?? ""} cta-wrapper`}
       // onClick={(e) => {
       //   e.preventDefault();
@@ -26,7 +27,7 @@ const CustomButton = ({ className, text, id }: CustomButtonProps) => {
         <div className="bg-circle" />
         <p className="text">{text}</p>
         <div className="arrow-wrapper">
-          <img src="../assets/public/images/arrow.svg" alt="arrow" />
+          {/* <img src="../assets/public/images/arrow.svg" alt="arrow" /> */}
         </div>
       </div>
     </a>

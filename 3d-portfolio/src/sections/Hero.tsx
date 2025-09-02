@@ -14,7 +14,7 @@ const Hero = () => {
         {/* <IntroBar /> */}
         <div className="hero-layoout grid grid-cols-1 md:grid-cols-2 gap-8 items-center min-h-screen">
           {/* left hero content : here the text will come */}
-          <header className="flex flex-col justify-center md:w-full w-screen md:px-20 px-5 relative z-20">
+          <header className="flex flex-col mb-140  justify-center md:w-full w-screen md:px-20 px-5 relative z-20">
             <div className="flex flex-col gap-7">
               <div className="hero-text">
                 <h1>
@@ -60,8 +60,7 @@ const Hero = () => {
           </header>
 
           {/* right hero content  : here the 3d-model will come */}
-          <figure className="w-300 h-300">
-            {" "}
+          <figure className="w-150 h-150 ">
             <div className="hero-3d-layout ">
               <HeroModel />
             </div>

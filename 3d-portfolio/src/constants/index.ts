@@ -7,10 +7,10 @@ const navLinks = [
     name: "Experience",
     link: "#experience",
   },
-  {
-    name: "Skills",
-    link: "#skills",
-  },
+  // {
+  //   name: "Skills",
+  //   link: "#skills",
+  // },
   {
     name: "Testimonials",
     link: "#testimonials",
@@ -161,7 +161,7 @@ const expCards = [
       "Ashton brought creativity, technical expertise, and strong communication skills to the team. He was not only a reliable developer but also a friendly and helpful teammate who contributed across multiple projects. His ability to take full ownership, from planning to deployment, made him invaluable in delivering high-quality results on time.",
     imgPath: "/images/exp1.png",
     logoPath: "/images/logo1.png",
-    title: "Software Developer Intern",
+    title: `Software Developer Intern \nYugYatra Retail Private Limited`,
     date: "July 2025 - September 2025",
     responsibilities: [
       "Designed, developed, and maintained multiple full-stack projects covering both front-end and back-end development.",

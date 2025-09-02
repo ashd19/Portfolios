@@ -23,7 +23,7 @@ const Resume = () => {
   return (
     <div
       id="resume"
-      className="bg-transparenth-50 flex justify-center gap-5 items-center mt-3"
+      className="bg-transparenth-50 flex justify-center gap-5 items-center mt-30"
     >
       <button
         type="button"
