@@ -7,37 +7,36 @@ Source: https://sketchfab.com/3d-models/pokemon-firered-players-room-b23b6b25320
 Title: Pokemon FireRed - Player's Room
 */
 
-import React from "react";
 import { useGLTF } from "@react-three/drei";
 import type { ThreeElements } from "@react-three/fiber";
-import type { GLTF } from "three-stdlib";
-import { Mesh, Material } from "three";
+// import type { GLTF } from "three-stdlib";
+// import { Mesh, Material } from "three";
 
-type GLTFResult = GLTF & {
-  nodes: {
-    base_fireRed_material_0: Mesh;
-    tiles_fireRed_material_0: Mesh;
-    chair_fireRed_material_0: Mesh;
-    table_fireRed_material_0: Mesh;
-    Computer_fireRed_material_0: Mesh;
-    TV_stand_fireRed_material_0: Mesh;
-    TV_fireRed_material_0: Mesh;
-    carpet_A_fireRed_material_0: Mesh;
-    carpet_B_fireRed_material_0: Mesh;
-    bed_fireRed_material_0: Mesh;
-    dresser_fireRed_material_0: Mesh;
-    bookShelf_fireRed_material_0: Mesh;
-    NES_fireRed_material_0: Mesh;
-    railing_fireRed_material_0: Mesh;
-    stairs_fireRed_material_0: Mesh;
-    wall_picture_fireRed_material_0: Mesh;
-    ambient_occlusion_fireRed_material_0: Mesh;
-    title_fireRed_material_0: Mesh;
-  };
-  materials: {
-    fireRed_material: Material;
-  };
-};
+// type GLTFResult = GLTF & {
+//   nodes: {
+//     base_fireRed_material_0: Mesh;
+//     tiles_fireRed_material_0: Mesh;
+//     chair_fireRed_material_0: Mesh;
+//     table_fireRed_material_0: Mesh;
+//     Computer_fireRed_material_0: Mesh;
+//     TV_stand_fireRed_material_0: Mesh;
+//     TV_fireRed_material_0: Mesh;
+//     carpet_A_fireRed_material_0: Mesh;
+//     carpet_B_fireRed_material_0: Mesh;
+//     bed_fireRed_material_0: Mesh;
+//     dresser_fireRed_material_0: Mesh;
+//     bookShelf_fireRed_material_0: Mesh;
+//     NES_fireRed_material_0: Mesh;
+//     railing_fireRed_material_0: Mesh;
+//     stairs_fireRed_material_0: Mesh;
+//     wall_picture_fireRed_material_0: Mesh;
+//     ambient_occlusion_fireRed_material_0: Mesh;
+//     title_fireRed_material_0: Mesh;
+//   };
+//   materials: {
+//     fireRed_material: Material;
+//   };
+// };
 
 export function Model(props: ThreeElements["group"]) {
   const gltf = useGLTF("./pokemon_firered_-_players_room.glb");

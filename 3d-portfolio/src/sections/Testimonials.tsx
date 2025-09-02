@@ -1,4 +1,4 @@
-import React from "react";
+
 import { testimonials } from "../constants/index.ts"; // adjust path as needed
 import CardModal from "./CardModal.tsx";
 

@@ -1,7 +1,7 @@
 "use client";
 import React from 'react';
 
-import { ExternalLink, Mail, Video, Code, Shield, Zap, Users, Bot } from 'lucide-react';
+import { Mail, Video, Code, Shield, Zap, Bot } from 'lucide-react';
 
 const Projects = () => {
 

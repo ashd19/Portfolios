@@ -1,4 +1,4 @@
-import React from "react";
+
 
 type CustomButtonProps = {
   className: string;
@@ -6,7 +6,7 @@ type CustomButtonProps = {
   id: string;
 };
 
-const CustomButton = ({ className, text, id }: CustomButtonProps) => {
+const CustomButton = ({ className, text, }: CustomButtonProps) => {
   return (
     <a
      href="#projects"
